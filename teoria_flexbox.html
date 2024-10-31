@@ -1,37 +1,223 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flexbox</title>
-    <link rel="stylesheet" href="CSS/estilo_flesxbox.css">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="./CSS/estilo_flesxbox.css">
 </head>
 <body>
-    <h1>trabalhando com div</h1>
-    <div class="div1">
-        <h2>londres</h2>
-        <p>londres e a capital da inglaterra</p>
-        <p>londres tem 13 milhões de habitantes</p>
+    <h1>Trabalhando com Div</h1>
+    <div class = "div1">
+        <h2>Londres</h2>
+        <p>Londres é a capital da Inglaterra</p>
+        <p>Londres tem 13 milhões de habitantes</p>
     </div>
-    <h1>trabalhando com div</h1>
     <div class="div2">
-        <h2>londres</h2>
-        <p>londres e a capital da inglaterra</p>
-        <p>londres tem 13 milhões de habitantes</p>
+        <h2>Londres</h2>
+        <p>Londres é a capital da Inglaterra</p>
+        <p>Londres tem 13 milhões de habitantes</p>
     </div>
-    <h1>trabalhando com div</h1>
     <div class="div3">
-        <h2>londres</h2>
-        <p>londres e a capital da inglaterra</p>
-        <p>londres tem 13 milhões de habitantes</p>
+        <h2>Londres</h2>
+        <p>Londres é a capital da Inglaterra</p>
+        <p>Londres tem 13 milhões de habitantes</p>
     </div>
-    <h1>trabalhando com o flexbox</h1>
-    <p>utilizando flexbox para posicionar os elementos de ima linha ou coluna de forma dinamica</p>
+
+    <h1>Trabalhando com Flexbox</h1>
+    <p>Utilizamos Flexbox para posicionar os elementos de uma linha
+        ou coluna de forma dinâmica
+    </p>
+    <p>Por padrão, os elementos são exibidos em bloco (block)</p>
     <section class="container">
-        <div class="item">item 1</div>
-        <div class="item">item 2</div>
-        <div class="item">item 3</div>
-        <div class="item">item 4</div>
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        <div class="item">item4</div>
     </section>
 
-</body>
+    <p>Flex com mais elementos, preenchendo a largura da tela</p>
+    <section class="container"></section>
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        <div class="item">item4</div>
+        <div class="item">item5</div>
+        <div class="item">item6</div>
+        <div class="item">item7</div>
+        <div class="item">item8</div>
+    </section>
+
+    <p>flex direction - alterando a direção do elemento</p>
+    <section class="flex">
+        <div class="item"><img
+                src="https://p1-kimg.kwai.net/kimg/EKzM1y8qmgEKAnMzEg1waG90by1vdmVyc2VhGoQBdXBpYy8yMDI0LzAyLzA2LzIzL0JNakF5TkRBeU1EWXlNekk0TXpoZk1UVXdNREF4TkRNeE1EQXpNVEk0WHpFMU1ERXdOVEl6TlRFNU1EZzNPRjh5WHpNPV9vZmZuX0I1NzU1ZjhmOTExZTAwOTM4NTJkNmFiNDE2MWE1NjY3OS53ZWJw.webp"
+                alt=""></div>
+        <div class="item"><img
+                src="https://s2-ge.glbimg.com/r1HPaQYSUg6W66yjRdLR4-cWr7o=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/s/U/M3KThWSvmIobXeoIKrKw/2022-10-27t204304z-2106604607-up1eiar1ljqsg-rtrmadp-3-soccer-europa-mun-she-report.jpg"
+                alt=""></div>
+        <div class="item"><img
+                src="https://p1-kimg.kwai.net/kimg/EKzM1y8qmgEKAnMzEg1waG90by1vdmVyc2VhGoQBdXBpYy8yMDIzLzA0LzExLzEwL0JNakF5TXpBME1URXhNREk1TVRsZk1UVXdNREF3T1RVMU5qSXhPRE15WHpFMU1ERXdNalkwTXpNek16ZzFNVjh5WHpNPV9vZmZuX0JmNzczNTE1YTA4MThlNmI5OTkyOWYwMjRhMWRiNTkyYi53ZWJw.webp"
+                alt=""></div>
+        <div class="item"><img
+                src="https://f.i.uol.com.br/fotografia/2023/05/20/16845852796468bb3f6ed86_1684585279_3x2_md.jpg"
+                alt=""></div>
+    </section>
+
+    <p>Flex Wrap - Faz a quebra do elemento quando não tem mais espaço na tela</p>
+    <section>
+        <img class="secao-img" src="https://miro.medium.com/v2/resize:fit:3400/1*7v4y-Z56HOZqFM7fyu6Gxw.jpeg" alt="">
+        <img class="secao-img" src="https://yt3.googleusercontent.com/9yaR26TNvdyBe5MbpSXUJDV3mUratVAi0oVTK0FRFLbl0i3QqQ0bhi__ePIMk65WW2rFBLIfUA8=s900-c-k-c0x00ffffff-no-rj" alt="">
+        <img class="secao-img" src="https://i.ytimg.com/vi/Whoztxbm2II/maxresdefault.jpg" alt="">
+    </section>
+
+    <p>Justify - content - Alinha os itens flex no container</p>
+    <section class="alinhar-esquerda">
+        <img class="secao-img" src="https://miro.medium.com/v2/resize:fit:3400/1*7v4y-Z56HOZqFM7fyu6Gxw.jpeg" alt="">
+        <img class="secao-img" src="https://yt3.googleusercontent.com/9yaR26TNvdyBe5MbpSXUJDV3mUratVAi0oVTK0FRFLbl0i3QqQ0bhi__ePIMk65WW2rFBLIfUA8=s900-c-k-c0x00ffffff-no-rj" alt="">
+        <img class="secao-img" src="https://i.ytimg.com/vi/Whoztxbm2II/maxresdefault.jpg" alt="">
+    </section>
+
+    <p>Alinhar ao centro</p>
+    <section class="alinhar-centro">
+        <img class="secao-img" src="https://miro.medium.com/v2/resize:fit:3400/1*7v4y-Z56HOZqFM7fyu6Gxw.jpeg" alt="">
+        <img class="secao-img" src="https://yt3.googleusercontent.com/9yaR26TNvdyBe5MbpSXUJDV3mUratVAi0oVTK0FRFLbl0i3QqQ0bhi__ePIMk65WW2rFBLIfUA8=s900-c-k-c0x00ffffff-no-rj" alt="">
+        <img class="secao-img" src="https://i.ytimg.com/vi/Whoztxbm2II/maxresdefault.jpg" alt="">
+    </section>
+
+    <p>Alinhar a direita</p>
+    <section class="alinhar-direita">
+        <img class="secao-img" src="https://miro.medium.com/v2/resize:fit:3400/1*7v4y-Z56HOZqFM7fyu6Gxw.jpeg" alt="">
+        <img class="secao-img" src="https://yt3.googleusercontent.com/9yaR26TNvdyBe5MbpSXUJDV3mUratVAi0oVTK0FRFLbl0i3QqQ0bhi__ePIMk65WW2rFBLIfUA8=s900-c-k-c0x00ffffff-no-rj" alt="">
+        <img class="secao-img" src="https://i.ytimg.com/vi/Whoztxbm2II/maxresdefault.jpg" alt="">
+    </section>
+
+
+    <p>Alinha os elementos nos cantos e ajusta ao centro</p>
+    <section class="alinhar-entre">
+        <img class="secao-img" src="https://miro.medium.com/v2/resize:fit:3400/1*7v4y-Z56HOZqFM7fyu6Gxw.jpeg" alt="">
+        <img class="secao-img" src="https://yt3.googleusercontent.com/9yaR26TNvdyBe5MbpSXUJDV3mUratVAi0oVTK0FRFLbl0i3QqQ0bhi__ePIMk65WW2rFBLIfUA8=s900-c-k-c0x00ffffff-no-rj" alt="">
+        <img class="secao-img" src="https://i.ytimg.com/vi/Whoztxbm2II/maxresdefault.jpg" alt="">
+    </section>
+
+    <p>Space-around - Alinhar os elementos a partir do espaço ao redor</p>
+    <section class="alinhar-redor">
+        <img class="secao-img" src="https://miro.medium.com/v2/resize:fit:3400/1*7v4y-Z56HOZqFM7fyu6Gxw.jpeg" alt="">
+        <img class="secao-img" src="https://yt3.googleusercontent.com/9yaR26TNvdyBe5MbpSXUJDV3mUratVAi0oVTK0FRFLbl0i3QqQ0bhi__ePIMk65WW2rFBLIfUA8=s900-c-k-c0x00ffffff-no-rj" alt="">
+        <img class="secao-img" src="https://i.ytimg.com/vi/Whoztxbm2II/maxresdefault.jpg" alt="">
+    </section>
+
+    <p>Espaçamento usando colunas</p>
+    <section class="alinhar-coluna">
+        <img class="secao-img" src="https://miro.medium.com/v2/resize:fit:3400/1*7v4y-Z56HOZqFM7fyu6Gxw.jpeg" alt="">
+        <img class="secao-img" src="https://yt3.googleusercontent.com/9yaR26TNvdyBe5MbpSXUJDV3mUratVAi0oVTK0FRFLbl0i3QqQ0bhi__ePIMk65WW2rFBLIfUA8=s900-c-k-c0x00ffffff-no-rj" alt="">
+        <img class="secao-img" src="https://i.ytimg.com/vi/Whoztxbm2II/maxresdefault.jpg" alt="">
+    </section>
+
+    <section class="alinhar-coluna">
+        <div>item1</div>
+        <div>item2</div>
+        <div>item3</div>
+        <div>item4</div>
+    </section>
+
+    <p>Cards usando divs</p>
+    <section class="container-card">
+
+        <article class="card">
+            <header class="cabecalho-card">
+                <h2 class="titulo-card">pokedex</h2>
+                <p class="subtitulo-card">Pikaxota</p>
+            </header>
+
+            <figure class="imagem-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTjw-aUIyIpVMK2UdKmV6wDjjpHkaXsx_rDw&s" alt="">
+                <figcaption>Pokemon do tipo elétrico</figcaption>
+            </figure>
+
+            <div class="conteudo-card">
+                <p>Este Pokemon é poderoso,
+                    podemos emitir raios eletricos
+                </p>
+            </div>
+
+            <footer class="rodape-card">
+                <a href="" class="botao-card">saiba mais</a>
+            </footer>
+        </article>
+
+        <article class="card">
+            <header class="cabecalho-card">
+            <h2 class="titulo-card">pokedex</h2>
+            <p class="subtitulo-card">babasauru</p>
+
+
+        </header>
+
+        <figure class="imagem-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9WUYQ8dQbshyeYFnAl_16_qxlC4r6xwViAw&s" alt="">
+            <figcaption>Pokemon do tipo planta</figcaption>
+        </figure>
+
+        <div class="conteudo-card">
+            <p>seu chicote é poderoso,
+                podemos capturar seus oponentes
+            </p>
+        </div>
+
+        <footer class="rodape-card">
+            <a href="" class="botao-card">saiba mais</a>
+        </footer>
+    </article>
+    
+
+    <article class="card">
+        <header class="cabecalho-card">
+        <h2 class="titulo-card">pokedex</h2>
+        <p class="subtitulo-card">charmander</p>
+
+
+    </header>
+
+    <figure class="imagem-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStPN2IZkwu4l_MYtgeIdANc_nLROZWiM8Acg&s" alt="">
+        <figcaption>Pokemon do tipo fogo</figcaption>
+    </figure>
+
+    <div class="conteudo-card">
+        <p>lança poderosas chamas
+        </p>
+    </div>
+
+    <footer class="rodape-card">
+        <a href="" class="botao-card">saiba mais</a>
+    </footer>
+</article>
+
+    <article class="card">
+        <header class="cabecalho-card">
+        <h2 class="titulo-card">pokedex</h2>
+        <p class="subtitulo-card">charmander</p>
+
+
+    </header>
+
+    <figure class="imagem-card">
+        <img src="https://img1.picmix.com/output/stamp/normal/2/3/5/8/2468532_b59ee.gif" alt="">
+        <figcaption>Pokemon do tipo fogo</figcaption>
+    </figure>
+
+    <div class="conteudo-card">
+        <p>lança poderosas chamas
+        </p>
+    </div>
+
+    <footer class="rodape-card">
+        <a href="" class="botao-card">saiba mais</a>
+    </footer>
+</article>
+    </section>
+
+
+    </body>
+</html>

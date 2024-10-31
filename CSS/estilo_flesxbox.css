@@ -7,3 +7,76 @@
 .div3{
     background-color: blueviolet;
 }
+
+.container-card{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+.card{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.4);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    flex:  0 0 aauto;
+}
+
+.cabecalho-card{
+    padding: 10px;
+}
+.titulo-card {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.subtitulo-card {
+    margin: 0;
+    font-size: 1rem;
+    color: #777;
+}
+.imagem-card{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagem-card > img {
+    height: 250px;
+    width: 100%;
+}
+.imagem-card > figcaption{
+    font-size: 0.8rem;
+    padding: 8px;
+    text-align: center;
+    color: #555;
+}
+.conteudo-card{
+    padding: 10px;
+    background-color: #f5f5f5;
+    text-align: center;
+    height: 70px;
+}
+.rodape-card{
+    background-color: #3333335e;
+    text-align: center;
+    padding: 6px;
+}
+.botao-card{
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 4px ;
+    padding: 5px 6px;
+    display: inline-block;
+}
+.botao-card:hover{
+    background-color: deeppink;
+    width: 150px;
+}
